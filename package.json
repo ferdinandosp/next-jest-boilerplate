@@ -2,7 +2,6 @@
   "name": "next-app",
   "version": "1.0.0",
   "dependencies": {
-    "babel-plugin-transform-export-extensions": "^6.22.0",
     "cssnano": "^3.10.0",
     "glob": "^7.1.2",
     "next": "latest",
@@ -17,6 +16,7 @@
   "devDependencies": {
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "22.4.3",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
     "enzyme": "3.2.0",
     "enzyme-adapter-react-16": "1.1.1",
     "jest": "22.0.1",
