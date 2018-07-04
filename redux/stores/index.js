@@ -4,7 +4,7 @@ import { createLogger } from 'redux-logger';
 import reducer from '../reducers';
 
 const middlewares = [thunk];
-let final = applyMiddleware(...middlewares);
+const final = applyMiddleware(...middlewares);
 
 if (typeof window !== 'undefined') middlewares.push(createLogger());
 

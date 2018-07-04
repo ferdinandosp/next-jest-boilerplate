@@ -1,17 +1,20 @@
-import React, { Component } from 'react';
-import globalStyle from '../styles/common.scss';
+import React from 'react';
 import { connect } from 'react-redux';
+import { string } from 'prop-types';
+import globalStyle from '../styles/common.scss';
 
-export class Home extends Component {
-  render() {
-    return (
-      <div>
-        <style dangerouslySetInnerHTML={{ __html: globalStyle }} />
-        <p>{this.props.home}</p>
-      </div>
-    );
-  }
-}
+export const Home = ({ home }) => (
+  <div>
+    <style dangerouslySetInnerHTML={{ __html: globalStyle }} />
+    <p>
+      {home}
+    </p>
+  </div>
+);
+
+Home.propTypes = {
+  home: string.isRequired
+};
 
 const mapStateToProps = state => ({
   home: state.MainReducer.home
