@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { string } from 'prop-types';
-import globalStyle from '../styles/common.scss';
+import globalStyle from 'styles/common.scss';
 
 export const Home = ({ home }) => (
   <div>
