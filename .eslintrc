@@ -11,5 +11,16 @@
         "comma-dangle": ["error", "never"],
         "react/no-danger": 0,
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    },
+    "settings": {
+        "import/resolver": {
+            "webpack": {
+                "config" : {
+                    "resolve": {
+                        "modules": ["./src/"]
+                      }
+                }
+            }
+        }
     }
 }

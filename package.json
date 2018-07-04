@@ -27,19 +27,21 @@
     "enzyme-adapter-react-16": "1.1.1",
     "eslint": "^5.0.1",
     "eslint-config-airbnb": "^17.0.0",
+    "eslint-import-resolver-webpack": "^0.10.1",
     "eslint-loader": "^2.0.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.0",
     "eslint-plugin-react": "^7.10.0",
     "jest": "22.0.1",
     "jest-css-modules": "^1.1.0",
+    "jest-webpack-resolver": "^0.3.0",
     "react-addons-test-utils": "15.6.2",
     "react-test-renderer": "16.2.0"
   },
   "scripts": {
     "test": "NODE_ENV=test jest",
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "dev": "next src",
+    "build": "next build src",
+    "start": "next start src"
   }
 }
