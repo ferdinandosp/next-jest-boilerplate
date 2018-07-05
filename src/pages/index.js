@@ -6,7 +6,7 @@ import globalStyle from 'styles/common.scss';
 export const Home = ({ home }) => (
   <div>
     <style dangerouslySetInnerHTML={{ __html: globalStyle }} />
-    <p>
+    <p className="mdc-ripple-surface mdc-ripple-surface--primary">
       {home}
     </p>
   </div>

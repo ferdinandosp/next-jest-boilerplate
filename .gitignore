@@ -76,6 +76,8 @@ typings/
 # misc
 .DS_Store
 .env
+.next
+__snapshots__
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
