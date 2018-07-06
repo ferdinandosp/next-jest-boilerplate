@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { shallow } from 'enzyme';
-import Button from '../pages/components/button';
+import Button from 'components/button';
 
 describe('With Enzyme', () => {
   it('Testing button', () => {

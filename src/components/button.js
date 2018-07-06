@@ -7,7 +7,9 @@ class Button extends Component {
 
   render() {
     return (
-      <div>This is a button</div>
+      <div>
+        This is a button
+      </div>
     );
   }
 }
