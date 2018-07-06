@@ -15,10 +15,13 @@ describe('With Enzyme', () => {
   });
 });
 
+/*
+  // Uncomment to activate Snapshot Testing
+
 describe('With Snapshot Testing', () => {
   it('App shows "Hello world!"', () => {
     const component = renderer.create(Render);
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });
-});
+}); */

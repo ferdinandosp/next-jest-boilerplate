@@ -45,6 +45,7 @@
   "scripts": {
     "test": "NODE_ENV=test jest",
     "dev": "nodemon server -i src/",
+    "build": "next build src",
     "production": "next build src && NODE_ENV=production node server"
   }
 }

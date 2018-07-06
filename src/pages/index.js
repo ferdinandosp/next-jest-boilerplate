@@ -5,7 +5,9 @@ import { string } from 'prop-types';
 export const Home = ({ home }) => (
   <div>
     <div>
-      { home }
+      <p>
+        { home }
+      </p>
     </div>
     <div className="grid-x">
       <div className="cell">
