@@ -1,5 +1,15 @@
-@import "material.scss";
+@import 'foundation-sites/scss/_global.scss';
+@import 'foundation-sites/scss/foundation.scss';
 
-body {
-  background-color: grey;
-}
+@include foundation-xy-grid-classes(
+
+  $base-grid: true,
+  $margin-grid: true,
+  $padding-grid: true,
+  $block-grid: true,
+  $collapse: true,
+  $offset: true,
+  $vertical-grid: true,
+  $frame-grid: true
+
+);
