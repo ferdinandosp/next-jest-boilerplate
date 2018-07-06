@@ -1,0 +1,18 @@
+{
+  "short_name": "Next App",
+  "name": "Create Next App Example",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/ico"
+    }
+  ],
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "splash_pages": null
+}
